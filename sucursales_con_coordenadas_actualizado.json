@@ -1,0 +1,2045 @@
+[
+    {
+        "RG": "XV",
+        "COMUNA": "ARICA",
+        "SUCURSAL": "ARICA",
+        "DIRECCION": "ARTURO PRAT 305",
+        "ESTADO": "ABIERTO",
+        "lat": -18.4771607,
+        "lng": -70.32106739999999
+    },
+    {
+        "RG": "I",
+        "COMUNA": "ALTO HOSPICIO",
+        "SUCURSAL": "ALTO HOSPICIO",
+        "DIRECCION": "PASAJE ESLAVONIA 974",
+        "ESTADO": "ABIERTO",
+        "lat": -20.2718843,
+        "lng": -70.09911129999999
+    },
+    {
+        "RG": "I",
+        "COMUNA": "IQUIQUE",
+        "SUCURSAL": "IQUIQUE - CENTRO",
+        "DIRECCION": "BOLIVAR 458",
+        "ESTADO": "ABIERTO",
+        "lat": -20.2120999,
+        "lng": -70.15072339999999
+    },
+    {
+        "RG": "II",
+        "COMUNA": "ANTOFAGASTA",
+        "SUCURSAL": "ANTOFAGASTA - MALL PLAZA",
+        "DIRECCION": "AV. JOSE BALMACEDA 2355, LOCAL Q1",
+        "ESTADO": "ABIERTO",
+        "lat": -23.6509279,
+        "lng": -70.39750219999999
+    },
+    {
+        "RG": "II",
+        "COMUNA": "ANTOFAGASTA",
+        "SUCURSAL": "ANTOFAGASTA - NORTE",
+        "DIRECCION": "AV. PEDRO AGUIRRE CERDA 5301",
+        "ESTADO": "ABIERTO",
+        "lat": -23.6214562,
+        "lng": -70.3906091
+    },
+    {
+        "RG": "II",
+        "COMUNA": "ANTOFAGASTA",
+        "SUCURSAL": "ANTOFAGASTA - PLAZA DE ARMAS",
+        "DIRECCION": "WASHINGTON 2601",
+        "ESTADO": "ABIERTO",
+        "lat": -23.6509279,
+        "lng": -70.39750219999999
+    },
+    {
+        "RG": "II",
+        "COMUNA": "ANTOFAGASTA",
+        "SUCURSAL": "ANTOFAGASTA - U.C.N.",
+        "DIRECCION": "AV. ANGAMOS 0610, INTERIOR UNIVERSIDAD",
+        "ESTADO": "ABIERTO",
+        "lat": -23.6800684,
+        "lng": -70.40964799999999
+    },
+    {
+        "RG": "II",
+        "COMUNA": "ANTOFAGASTA",
+        "SUCURSAL": "ANTOFAGASTA PARQUE BRASIL",
+        "DIRECCION": "AV. JOSE MIGUEL CARRERA 1527 LOCAL 2",
+        "ESTADO": "ABIERTO",
+        "lat": -23.660961,
+        "lng": -70.402047
+    },
+    {
+        "RG": "II",
+        "COMUNA": "CALAMA",
+        "SUCURSAL": "CALAMA - CENTRO",
+        "DIRECCION": "VICUÑA MACKENNA 2197",
+        "ESTADO": "ABIERTO",
+        "lat": -22.4635219,
+        "lng": -68.9275644
+    },
+    {
+        "RG": "II",
+        "COMUNA": "CALAMA",
+        "SUCURSAL": "CALAMA - MALL",
+        "DIRECCION": "BALMACEDA 3242, LOCAL S 07",
+        "ESTADO": "ABIERTO",
+        "lat": -22.4486675,
+        "lng": -68.9215368
+    },
+    {
+        "RG": "II",
+        "COMUNA": "MEJILLONES",
+        "SUCURSAL": "MEJILLONES",
+        "DIRECCION": "ONGOLMO 601",
+        "ESTADO": "ABIERTO",
+        "lat": -23.1012996,
+        "lng": -70.44909310000001
+    },
+    {
+        "RG": "II",
+        "COMUNA": "SAN PEDRO DE ATACAMA",
+        "SUCURSAL": "SAN PEDRO DE ATACAMA",
+        "DIRECCION": "GUSTAVO LE PAIGE 365",
+        "ESTADO": "ABIERTO",
+        "lat": -22.9105905,
+        "lng": -68.1995398
+    },
+    {
+        "RG": "II",
+        "COMUNA": "TALTAL",
+        "SUCURSAL": "TAL-TAL",
+        "DIRECCION": "ARTURO PRAT 525 (INTERIOR MUNICIPALIDAD)",
+        "ESTADO": "ABIERTO",
+        "lat": -25.406494,
+        "lng": -70.4803027
+    },
+    {
+        "RG": "II",
+        "COMUNA": "TOCOPILLA",
+        "SUCURSAL": "TOCOPILLA",
+        "DIRECCION": "AV. 21 DE MAYO 1653 (EDIFICIO GOBERNACION)",
+        "ESTADO": "ABIERTO",
+        "lat": -22.0930004,
+        "lng": -70.2010647
+    },
+    {
+        "RG": "III",
+        "COMUNA": "CALDERA",
+        "SUCURSAL": "CALDERA",
+        "DIRECCION": "TOCORNAL S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -27.0664281,
+        "lng": -70.8212741
+    },
+    {
+        "RG": "III",
+        "COMUNA": "CHAÑARAL",
+        "SUCURSAL": "CHAÑARAL",
+        "DIRECCION": "COMERCIO 172 (ESQ. LAS HERAS)",
+        "ESTADO": "ABIERTO",
+        "lat": -26.3474932,
+        "lng": -70.6244463
+    },
+    {
+        "RG": "III",
+        "COMUNA": "COPIAPO",
+        "SUCURSAL": "COPIAPO",
+        "DIRECCION": "LOS CARRERAS 691",
+        "ESTADO": "ABIERTO",
+        "lat": -27.3661265,
+        "lng": -70.3315461
+    },
+    {
+        "RG": "III",
+        "COMUNA": "DIEGO DE ALMAGRO",
+        "SUCURSAL": "DIEGO DE ALMAGRO",
+        "DIRECCION": "JUAN MARTINEZ 808",
+        "ESTADO": "ABIERTO",
+        "lat": -26.3908243,
+        "lng": -70.0433328
+    },
+    {
+        "RG": "III",
+        "COMUNA": "EL SALVADOR",
+        "SUCURSAL": "EL SALVADOR",
+        "DIRECCION": "AV. 4 DE JULIO 692",
+        "ESTADO": "ABIERTO",
+        "lat": -26.2449582,
+        "lng": -69.62555379999999
+    },
+    {
+        "RG": "III",
+        "COMUNA": "HUASCO",
+        "SUCURSAL": "HUASCO",
+        "DIRECCION": "LATORRE 115 (ESQ. GRAIG)",
+        "ESTADO": "ABIERTO",
+        "lat": -28.4646383,
+        "lng": -71.2214733
+    },
+    {
+        "RG": "III",
+        "COMUNA": "TIERRA AMARILLA",
+        "SUCURSAL": "TIERRA AMARILLA",
+        "DIRECCION": "MONSEÑOR MIGUEL LEMEUR S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -27.4744495,
+        "lng": -70.2663554
+    },
+    {
+        "RG": "III",
+        "COMUNA": "VALLENAR",
+        "SUCURSAL": "VALLENAR",
+        "DIRECCION": "JOSE JOAQUIN VALLEJOS S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -28.5757953,
+        "lng": -70.7571009
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "COMBARBALA",
+        "SUCURSAL": "COMBARBALA",
+        "DIRECCION": "AV. ORIENTE 673",
+        "ESTADO": "ABIERTO",
+        "lat": -31.17722,
+        "lng": -71.00005999999999
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "COQUIMBO",
+        "SUCURSAL": "COQUIMBO - PLAZA DE ARMAS",
+        "DIRECCION": "ALDUNATE 951",
+        "ESTADO": "ABIERTO",
+        "lat": -29.9524833,
+        "lng": -71.3384118
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "ILLAPEL",
+        "SUCURSAL": "ILLAPEL",
+        "DIRECCION": "AV. IGNACIO SILVA 231",
+        "ESTADO": "ABIERTO",
+        "lat": -31.6312067,
+        "lng": -71.1653236
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "LA SERENA",
+        "SUCURSAL": "LA PAMPA",
+        "DIRECCION": "LAS LOMAS 108",
+        "ESTADO": "ABIERTO",
+        "lat": -29.935798,
+        "lng": -71.259115
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "LA SERENA",
+        "SUCURSAL": "LA SERENA - MALL PLAZA",
+        "DIRECCION": "ALBERTO SOLARI 1400, LOCAL 6, BOULEVARD DE SERVICIOS",
+        "ESTADO": "ABIERTO",
+        "lat": -29.9121443,
+        "lng": -71.2570922
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "LA SERENA",
+        "SUCURSAL": "LA SERENA - PLAZA DE ARMAS",
+        "DIRECCION": "MATTA (ESQ. ARTURO PRAT)",
+        "ESTADO": "ABIERTO",
+        "lat": -29.9020595,
+        "lng": -71.2498306
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "LA SERENA",
+        "SUCURSAL": "EL MILAGRO LA SERENA",
+        "DIRECCION": "AV. CUATRO ESQUINAS N° 1617LOCAL 102",
+        "ESTADO": "ABIERTO",
+        "lat": -29.9461352,
+        "lng": -71.2414713
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "LOS VILOS",
+        "SUCURSAL": "LOS VILOS",
+        "DIRECCION": "LINCOYAN (ESQ. GALVARINO)",
+        "ESTADO": "ABIERTO",
+        "lat": -31.9118628,
+        "lng": -71.5129643
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "OVALLE",
+        "SUCURSAL": "OVALLE",
+        "DIRECCION": "VICUÑA MACKENNA 330",
+        "ESTADO": "ABIERTO",
+        "lat": -30.6037625,
+        "lng": -71.20245589999999
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "SALAMANCA",
+        "SUCURSAL": "SALAMANCA",
+        "DIRECCION": "BULNES 498, LOCAL 7",
+        "ESTADO": "ABIERTO",
+        "lat": -31.7813339,
+        "lng": -70.96457629999999
+    },
+    {
+        "RG": "IV",
+        "COMUNA": "VICUÑA",
+        "SUCURSAL": "VICUÑA",
+        "DIRECCION": "GABRIELA MISTRAL 270",
+        "ESTADO": "ABIERTO",
+        "lat": -30.0334817,
+        "lng": -70.7137387
+    },
+    {
+        "RG": "V",
+        "COMUNA": "ALGARROBO",
+        "SUCURSAL": "ALGARROBO",
+        "DIRECCION": "PEÑABLANCA 407",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3681974,
+        "lng": -71.6737478
+    },
+    {
+        "RG": "V",
+        "COMUNA": "CARTAGENA",
+        "SUCURSAL": "CARTAGENA",
+        "DIRECCION": "COVADONGA 456",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5464605,
+        "lng": -71.6033928
+    },
+    {
+        "RG": "V",
+        "COMUNA": "CON-CON",
+        "SUCURSAL": "NUEVA CON CON",
+        "DIRECCION": "AV. MANANTIALES N 955, LOCAL 107 A, STRIP CENTER TOTTUS",
+        "ESTADO": "ABIERTO",
+        "lat": -32.9318003,
+        "lng": -71.5219704
+    },
+    {
+        "RG": "V",
+        "COMUNA": "ISLA DE PASCUA",
+        "SUCURSAL": "ISLA DE PASCUA",
+        "DIRECCION": "TE PITO O TE HENUA S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -27.1480808,
+        "lng": -109.427286
+    },
+    {
+        "RG": "V",
+        "COMUNA": "JUAN FERNANDEZ",
+        "SUCURSAL": "ISLA ROBINSON CRUSOE",
+        "DIRECCION": "ALFRED VON RODT # 325",
+        "ESTADO": "ABIERTO",
+        "lat": -33.6613889,
+        "lng": -78.9277778
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VIÑA DEL MAR",
+        "SUCURSAL": "REÑACA",
+        "DIRECCION": "ANGAMOS 242, LOCAL 8, STRIP CENTER, ARAUCO EXPRESS PALMARE",
+        "ESTADO": "ABIERTO",
+        "lat": -32.9718436,
+        "lng": -71.5422827
+    },
+    {
+        "RG": "V",
+        "COMUNA": "SAN ANTONIO",
+        "SUCURSAL": "SAN ANTONIO - BARRANCA",
+        "DIRECCION": "BARROS LUCO 2048",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5983918,
+        "lng": -71.6132171
+    },
+    {
+        "RG": "V",
+        "COMUNA": "SAN ANTONIO",
+        "SUCURSAL": "SAN ANTONIO - CENTENARIO",
+        "DIRECCION": "AV.CENTENARIO 296",
+        "ESTADO": "ABIERTO",
+        "lat": -33.57958000000001,
+        "lng": -71.6089112
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VALPARAISO",
+        "SUCURSAL": "VALPARAISO - CONGRESO",
+        "DIRECCION": "AV. PEDRO MONTT S/Nº, INTERIOR CONGRESO NACIONAL",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0478544,
+        "lng": -71.6055459
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VALPARAISO",
+        "SUCURSAL": "VALPARAISO - PEDRO MONTT",
+        "DIRECCION": "PEDRO MONTT 2413 - 2415",
+        "ESTADO": "ABIERTO",
+        "lat": -33.047072,
+        "lng": -71.6108005
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VALPARAISO",
+        "SUCURSAL": "VALPARAISO - PLAYA ANCHA",
+        "DIRECCION": "AV. PLAYA ANCHA 187",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0305069,
+        "lng": -71.6359274
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VALPARAISO",
+        "SUCURSAL": "VALPARAISO - PRAT",
+        "DIRECCION": "PRAT 856",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0406128,
+        "lng": -71.6268458
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VIÑA DEL MAR",
+        "SUCURSAL": "VIÑA DEL MAR - ARCADIA",
+        "DIRECCION": "ARLEGUI 440, LOCAL 108 Y 109",
+        "ESTADO": "ABIERTO",
+        "lat": -33.023627,
+        "lng": -71.5561676
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VIÑA DEL MAR",
+        "SUCURSAL": "VIÑA DEL MAR - LIBERTAD",
+        "DIRECCION": "AV. LIBERTAD 741",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0147779,
+        "lng": -71.5502533
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VIÑA DEL MAR",
+        "SUCURSAL": "VIÑA DEL MAR - MALL MARINA",
+        "DIRECCION": "AV. LIBERTAD 1348, MALL MARINA ARAUCO, LOCAL E-14, ENTRE PISO",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0086629,
+        "lng": -71.5483022
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VIÑA DEL MAR",
+        "SUCURSAL": "VIÑA DEL MAR - PLAZA",
+        "DIRECCION": "PLAZA LATORRE 32",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0236668,
+        "lng": -71.5523887
+    },
+    {
+        "RG": "V",
+        "COMUNA": "CABILDO",
+        "SUCURSAL": "CABILDO",
+        "DIRECCION": "PLAZA LOS HEROES S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -32.425657,
+        "lng": -71.065392
+    },
+    {
+        "RG": "V",
+        "COMUNA": "CASABLANCA",
+        "SUCURSAL": "CASABLANCA",
+        "DIRECCION": "PORTALES 60",
+        "ESTADO": "ABIERTO",
+        "lat": -33.1941011,
+        "lng": -71.6968012
+    },
+    {
+        "RG": "V",
+        "COMUNA": "LA CALERA",
+        "SUCURSAL": "LA CALERA",
+        "DIRECCION": "ALDUNATE 162",
+        "ESTADO": "ABIERTO",
+        "lat": -32.7885474,
+        "lng": -71.190876
+    },
+    {
+        "RG": "V",
+        "COMUNA": "LA LIGUA",
+        "SUCURSAL": "LA LIGUA",
+        "DIRECCION": "ESMERALDA 460",
+        "ESTADO": "ABIERTO",
+        "lat": -32.4480232,
+        "lng": -71.2308079
+    },
+    {
+        "RG": "V",
+        "COMUNA": "LLAY-LLAY",
+        "SUCURSAL": "LLAY-LLAY",
+        "DIRECCION": "AGUSTIN EDWARDS 143",
+        "ESTADO": "ABIERTO",
+        "lat": -32.8418606,
+        "lng": -70.95201879999999
+    },
+    {
+        "RG": "V",
+        "COMUNA": "LOS ANDES",
+        "SUCURSAL": "LOS ANDES",
+        "DIRECCION": "ESMERALDA 387",
+        "ESTADO": "ABIERTO",
+        "lat": -32.8330031,
+        "lng": -70.59841039999999
+    },
+    {
+        "RG": "V",
+        "COMUNA": "QUILLOTA",
+        "SUCURSAL": "QUILLOTA",
+        "DIRECCION": "LA CONCEPCION 301 (ESQ. BERNARDO O'HIGGINS)",
+        "ESTADO": "ABIERTO",
+        "lat": -32.8595283,
+        "lng": -71.2318518
+    },
+    {
+        "RG": "V",
+        "COMUNA": "QUILPUE",
+        "SUCURSAL": "QUILPUE - BLANCO ENCALADA",
+        "DIRECCION": "BLANCO ENCALADA 1015",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0464103,
+        "lng": -71.4385403
+    },
+    {
+        "RG": "V",
+        "COMUNA": "QUILPUE",
+        "SUCURSAL": "QUILPUE - CENTRO",
+        "DIRECCION": "MANUEL BULNES N° 920, LOCAL 4",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0484612,
+        "lng": -71.4434672
+    },
+    {
+        "RG": "V",
+        "COMUNA": "QUINTERO",
+        "SUCURSAL": "QUINTERO",
+        "DIRECCION": "CABO ORTIZ 160",
+        "ESTADO": "ABIERTO",
+        "lat": -32.7845663,
+        "lng": -71.52708319999999
+    },
+    {
+        "RG": "V",
+        "COMUNA": "SAN FELIPE",
+        "SUCURSAL": "SAN FELIPE",
+        "DIRECCION": "SALINAS 1392",
+        "ESTADO": "ABIERTO",
+        "lat": -32.747342,
+        "lng": -70.7177007
+    },
+    {
+        "RG": "V",
+        "COMUNA": "LIMACHE",
+        "SUCURSAL": "SAN FRANCISCO DE LIMACHE",
+        "DIRECCION": "CONDELL 90 B Y C",
+        "ESTADO": "ABIERTO",
+        "lat": -32.9840968,
+        "lng": -71.2755074
+    },
+    {
+        "RG": "V",
+        "COMUNA": "VILLA ALEMANA",
+        "SUCURSAL": "VILLA ALEMANA",
+        "DIRECCION": "MATURANA 115, LOCAL 1",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0458335,
+        "lng": -71.37394809999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PUDAHUEL",
+        "SUCURSAL": "AEROPUERTO C.A.M.B.",
+        "DIRECCION": "ROTONDA PONIENTE PUERTA 4, NIVEL 1",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4282383,
+        "lng": -70.7688132
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "COLINA",
+        "SUCURSAL": "COLINA",
+        "DIRECCION": "GENERAL SAN MARTIN 068",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3646337,
+        "lng": -70.7371989
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "CONCHALI",
+        "SUCURSAL": "CONCHALI",
+        "DIRECCION": "INDEPENDENCIA 4553 H",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3865586,
+        "lng": -70.67833569999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "CURACAVI",
+        "SUCURSAL": "CURACAVI",
+        "DIRECCION": "AV. AMBROSIO O'HIGGINS 1414",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4052728,
+        "lng": -71.13582319999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "HUECHURABA",
+        "SUCURSAL": "HUECHURABA",
+        "DIRECCION": "SANTA CLARA 354, LOCAL 111, CUIDAD EMPRESARIAL",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3896668,
+        "lng": -70.6193557
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "INDEPENDENCIA",
+        "SUCURSAL": "VIVACETA",
+        "DIRECCION": "AV. FERMIN VIVACETA 957 - LOCAL 4",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4201295,
+        "lng": -70.66306
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAMPA",
+        "SUCURSAL": "LAMPA",
+        "DIRECCION": "ARTURO PRAT 1377",
+        "ESTADO": "ABIERTO",
+        "lat": -33.2868147,
+        "lng": -70.87379849999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "MAIPU",
+        "SUCURSAL": "MAIPU PAJARITOS",
+        "DIRECCION": "AVDA. PAJARITOS 2229",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5066665,
+        "lng": -70.7569552
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "HUECHURABA",
+        "SUCURSAL": "MALL PLAZA NORTE",
+        "DIRECCION": "AV. AMERICO VESPUCIO 1737, LOCAL BS 1096, MALL PLAZA NORTE",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3661533,
+        "lng": -70.6783085
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "MELIPILLA",
+        "SUCURSAL": "MELIPILLA",
+        "DIRECCION": "SAN AGUSTIN 418, LOCAL 1",
+        "ESTADO": "ABIERTO",
+        "lat": -33.6861242,
+        "lng": -71.212814
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PEÑAFLOR",
+        "SUCURSAL": "PEÑAFLOR",
+        "DIRECCION": "DOCTOR ERNESTO PRADO TAGLE 156",
+        "ESTADO": "ABIERTO",
+        "lat": -33.6070833,
+        "lng": -70.9012389
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "QUILICURA",
+        "SUCURSAL": "QUILICURA",
+        "DIRECCION": "JOSE FRANCISCO VERGARA 252 LOCAL B",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3672963,
+        "lng": -70.73332429999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "QUINTA NORMAL",
+        "SUCURSAL": "QUINTA NORMAL",
+        "DIRECCION": "WALKER MARTINEZ 1681",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4306837,
+        "lng": -70.6918719
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "RENCA",
+        "SUCURSAL": "RENCA",
+        "DIRECCION": "DOMINGO SANTA MARIA 4084, LOCAL 2",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4059205,
+        "lng": -70.7039489
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "TALAGANTE",
+        "SUCURSAL": "TALAGANTE",
+        "DIRECCION": "BERNARDO O'HIGGINS 1198",
+        "ESTADO": "ABIERTO",
+        "lat": -33.6646122,
+        "lng": -70.92964479999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "AV. MATTA",
+        "DIRECCION": "AV. MANUEL ANTONIO MATTA 1034",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4597082,
+        "lng": -70.6477981
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "ESTACION CENTRAL",
+        "SUCURSAL": "CARGA EXPOSICION",
+        "DIRECCION": "EXPOSICION 221, PISO 1",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4537989,
+        "lng": -70.67828030000001
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAS CONDES",
+        "SUCURSAL": "EL GOLF",
+        "DIRECCION": "APOQUINDO 3291",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4170343,
+        "lng": -70.5961111
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAS CONDES",
+        "SUCURSAL": "ESCUELA MILITAR",
+        "DIRECCION": "APOQUINDO 4499, LOCAL 102",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4147106,
+        "lng": -70.5833974
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "GABRIELA MISTRAL",
+        "DIRECCION": "AV. BERNARDO O'HIGGINS 254",
+        "ESTADO": "CERRADO",
+        "lat": -33.3577173,
+        "lng": -70.72934289999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "METRO UNIVERSIDAD DE CHILE",
+        "DIRECCION": "METRO ESTACION UNIVERSIDAD DE CHILE, LOCAL 25",
+        "ESTADO": "ABIERTO",
+        "lat": -33.443809,
+        "lng": -70.650391
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "MONEDA",
+        "DIRECCION": "MONEDA 1170",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4422391,
+        "lng": -70.6529398
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PROVIDENCIA",
+        "SUCURSAL": "PANORAMICO",
+        "DIRECCION": "AV. NUEVA PROVIDENCIA2092",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4234868,
+        "lng": -70.61102819999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "ESTACION CENTRAL",
+        "SUCURSAL": "PASEO ESTACION",
+        "DIRECCION": "AVDA. LIBERTADOR BDO. OHIGGINS3156, LOCAL 1159",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4644667,
+        "lng": -70.70497929999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "RECOLETA",
+        "SUCURSAL": "PATRONATO",
+        "DIRECCION": "PATRONATO 95",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4323685,
+        "lng": -70.644914
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "PLAZA DE ARMAS",
+        "DIRECCION": "CATEDRAL 989",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4368597,
+        "lng": -70.6513167
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "SANTIAGO SAN MARTIN",
+        "DIRECCION": "SAN MARTIN 29",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4443722,
+        "lng": -70.6573081
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PROVIDENCIA",
+        "SUCURSAL": "TAJAMAR",
+        "DIRECCION": "PROVIDENCIA 1466",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4275446,
+        "lng": -70.61772909999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "TENDERINI",
+        "DIRECCION": "MONEDA 748, LOCAL 10",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4488897,
+        "lng": -70.6692655
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PROVIDENCIA",
+        "SUCURSAL": "NUEVA TOBALABA",
+        "DIRECCION": "AV. Nueva Providencia 2530Local 102",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4176096,
+        "lng": -70.6038958
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "TRIBUNALES",
+        "DIRECCION": "COMPAÑIA 1140, TRIBUNALES DE JUSTICIA (INTERIOR)",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4388067,
+        "lng": -70.6586932
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "AMUNATEGUI",
+        "DIRECCION": "AMUNATEGUI 518",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4377926,
+        "lng": -70.6570789
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SANTIAGO",
+        "SUCURSAL": "MAC-IVER",
+        "DIRECCION": "MAC-IVER N° 440, LOCAL 102",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4374811,
+        "lng": -70.6473985
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PROVIDENCIA",
+        "SUCURSAL": "LOS LEONES",
+        "DIRECCION": "AV SUECIA 26",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4210505,
+        "lng": -70.6077171
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "VITACURA",
+        "SUCURSAL": "ALONSO DE CORDOVA",
+        "DIRECCION": "ALONSO DE CORDOVA 3772",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4018613,
+        "lng": -70.5932503
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAS CONDES",
+        "SUCURSAL": "APOQUINDO",
+        "DIRECCION": "APOQUINDO 6554 B",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4070564,
+        "lng": -70.5625156
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAS CONDES",
+        "SUCURSAL": "APUMANQUE",
+        "DIRECCION": "MAR DE LOS SARGAZOS 5879, LOCAL 8",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4101725,
+        "lng": -70.5686285
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "VITACURA",
+        "SUCURSAL": "AV. VITACURA",
+        "DIRECCION": "CERRADA TEMPORALMENTE",
+        "ESTADO": "CERRADO",
+        "lat": -33.3913492,
+        "lng": -70.58340749999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAS CONDES",
+        "SUCURSAL": "CANTAGALLO",
+        "DIRECCION": "AV. NUEVA LAS CONDES 12243, LOCAL 61",
+        "ESTADO": "ABIERTO",
+        "lat": -33.373728,
+        "lng": -70.51829529999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "ÑUÑOA",
+        "SUCURSAL": "GRECIA",
+        "DIRECCION": "AV. GRECIA 3232, LOCAL 4",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4643427,
+        "lng": -70.5975054
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "ÑUÑOA",
+        "SUCURSAL": "IRARRAZAVAL",
+        "DIRECCION": "IRARRAZAVAL 4949 LOC.1",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4547388,
+        "lng": -70.57941699999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LO BARNECHEA",
+        "SUCURSAL": "LA DEHESA",
+        "DIRECCION": "EL RODEO 12540",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3530898,
+        "lng": -70.5225191
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAS CONDES",
+        "SUCURSAL": "FLEMING (EX PADRE HURTADO)",
+        "DIRECCION": "PADRE HURTADO 1621 LOCAL 7",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4235069,
+        "lng": -70.53880099999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LAS CONDES",
+        "SUCURSAL": "PARQUE ARAUCO",
+        "DIRECCION": "AV. PRESIDENTE KENNEDY 5413",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4020429,
+        "lng": -70.5787015
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PEÑALOLEN",
+        "SUCURSAL": "PEÑALOLEN",
+        "DIRECCION": "AV. GRECIA 5536, LOCAL A",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4691153,
+        "lng": -70.575396
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PROVIDENCIA",
+        "SUCURSAL": "PLAZA PEDRO DE VALDIVIA",
+        "DIRECCION": "PEDRO DE VALDIVIA 1781, LOCAL 52",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4391913,
+        "lng": -70.6074884
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LA REINA",
+        "SUCURSAL": "PRINCIPE DE GALES",
+        "DIRECCION": "PRINCIPE DE GALES 7010",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4385652,
+        "lng": -70.559386
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LO BARNECHEA",
+        "SUCURSAL": "SAN ENRIQUE",
+        "DIRECCION": "SAN ENRIQUE 14915",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3641174,
+        "lng": -70.49314749999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "ÑUÑOA",
+        "SUCURSAL": "SUECIA",
+        "DIRECCION": "SUECIA 3624",
+        "ESTADO": "ABIERTO",
+        "lat": -33.45373,
+        "lng": -70.59974
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "ÑUÑOA",
+        "SUCURSAL": "VICUÑA MACKENNA",
+        "DIRECCION": "VICUÑA MACKENNA 886 A",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4530009,
+        "lng": -70.6303798
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LA REINA",
+        "SUCURSAL": "VILLA LA REINA",
+        "DIRECCION": "AV. LARRAIN 6116",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4529096,
+        "lng": -70.5665944
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "VITACURA",
+        "SUCURSAL": "VITACURA",
+        "DIRECCION": "AV. VITACURA 6780, LOCAL 13 D",
+        "ESTADO": "ABIERTO",
+        "lat": -33.3877946,
+        "lng": -70.567031
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "BUIN",
+        "SUCURSAL": "BUIN",
+        "DIRECCION": "CONDELL 421",
+        "ESTADO": "ABIERTO",
+        "lat": -33.7312679,
+        "lng": -70.74161149999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "EL BOSQUE",
+        "SUCURSAL": "EL BOSQUE",
+        "DIRECCION": "GRAN AVENIDA JOSE MIGUEL CARRERA 10226",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5542804,
+        "lng": -70.67478109999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SAN MIGUEL",
+        "SUCURSAL": "GRAN AVENIDA",
+        "DIRECCION": "GRAN AVENIDA JOSE MIGUEL CARRERA 4901",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4983345,
+        "lng": -70.6536344
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LA CISTERNA",
+        "SUCURSAL": "INTERMODAL LA CISTERNA",
+        "DIRECCION": "AV. OSSA 36, LOCAL 11 A, INTERMODAL LA CISTERNA (interior)",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5384545,
+        "lng": -70.6640511
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LA FLORIDA",
+        "SUCURSAL": "LA FLORIDA",
+        "DIRECCION": "VICUÑA MACKENNA ORIENTE 7110, LOCAL 44 Y 45, SECTOR BOULEVARD",
+        "ESTADO": "ABIERTO",
+        "lat": -33.517081,
+        "lng": -70.5969301
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LA GRANJA",
+        "SUCURSAL": "LA GRANJA",
+        "DIRECCION": "ERNESTO RIQUELME 010",
+        "ESTADO": "CERRADO",
+        "lat": -33.5416044,
+        "lng": -70.6339617
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "LA PINTANA",
+        "SUCURSAL": "LA PINTANA",
+        "DIRECCION": "BALDOMERO LILLO 1721",
+        "ESTADO": "ABIERTO",
+        "lat": -33.58280910000001,
+        "lng": -70.6336867
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "CERRILLOS",
+        "SUCURSAL": "LOS CERRILLOS",
+        "DIRECCION": "DOCTOR CARLOS ARANDA 6099",
+        "ESTADO": "ABIERTO",
+        "lat": -33.493558,
+        "lng": -70.7068754
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "MACUL",
+        "SUCURSAL": "MACUL",
+        "DIRECCION": "AV. MACUL 3344, LOCAL 9",
+        "ESTADO": "ABIERTO",
+        "lat": -33.4848061,
+        "lng": -70.59906889999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "CERRILLOS",
+        "SUCURSAL": "MALL PLAZA OESTE",
+        "DIRECCION": "AV. AMERICO VESPUCIO 1501, LOCAL BT 119",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5171784,
+        "lng": -70.7144692
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PUENTE ALTO",
+        "SUCURSAL": "MALL PLAZA TOBALABA",
+        "DIRECCION": "AV. CAMILO HENRIQUEZ 3692, LOCAL BS 118",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5668803,
+        "lng": -70.5549846
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PAINE",
+        "SUCURSAL": "PAINE",
+        "DIRECCION": "GENERAL BAQUEDANO 890, LOCAL 5",
+        "ESTADO": "ABIERTO",
+        "lat": -33.8135736,
+        "lng": -70.7422155
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PEDRO AGUIRRE CERDA",
+        "SUCURSAL": "PEDRO AGUIRRE CERDA",
+        "DIRECCION": "ALHUE 2609",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5040517,
+        "lng": -70.6739006
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PIRQUE",
+        "SUCURSAL": "PIRQUE",
+        "DIRECCION": "AV. CONCHA Y TORO 02548",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5884125,
+        "lng": -70.58046089999999
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PUENTE ALTO",
+        "SUCURSAL": "PUENTE ALTO",
+        "DIRECCION": "AV. CONCHA Y TORO 26 PISO 2, MALL PLAZA PUENTE ALTO",
+        "ESTADO": "ABIERTO",
+        "lat": -33.6119803,
+        "lng": -70.5759076
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "PUENTE ALTO",
+        "SUCURSAL": "PLAZA PUENTE ALTO",
+        "DIRECCION": "Sergio Roubillar #62 (ex. Santa Josefina)",
+        "ESTADO": "ABIERTO",
+        "lat": -33.6095585,
+        "lng": -70.576854
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SAN BERNARDO",
+        "SUCURSAL": "SAN BERNARDO",
+        "DIRECCION": "COVADONGA 493",
+        "ESTADO": "ABIERTO",
+        "lat": -33.5948972,
+        "lng": -70.7044389
+    },
+    {
+        "RG": "RM",
+        "COMUNA": "SAN JOAQUIN",
+        "SUCURSAL": "SAN JOAQUIN",
+        "DIRECCION": "SANTA ROSA 5320 LOCAL 5",
+        "ESTADO": "ABIERTO",
+        "lat": -33.506085,
+        "lng": -70.6379457
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "CHIMBARONGO",
+        "SUCURSAL": "CHIMBARONGO",
+        "DIRECCION": "MIRAFLORES 403, LOCAL 6",
+        "ESTADO": "ABIERTO",
+        "lat": -34.70924,
+        "lng": -71.04127129999999
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "GRANEROS",
+        "SUCURSAL": "GRANEROS",
+        "DIRECCION": "SANTA LUCIA 183",
+        "ESTADO": "ABIERTO",
+        "lat": -34.0636397,
+        "lng": -70.7264416
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "PICHILEMU",
+        "SUCURSAL": "PICHILEMU",
+        "DIRECCION": "ANIBAL PINTO 45",
+        "ESTADO": "ABIERTO",
+        "lat": -34.3859129,
+        "lng": -72.0030926
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "RANCAGUA",
+        "SUCURSAL": "RANCAGUA",
+        "DIRECCION": "CAMPOS 322",
+        "ESTADO": "ABIERTO",
+        "lat": -34.169378,
+        "lng": -70.7417901
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "RANCAGUA",
+        "SUCURSAL": "RANCAGUA PLAZA AMERICA",
+        "DIRECCION": "AV. ALBERTO EINSTEIN 290, LOCAL 205",
+        "ESTADO": "ABIERTO",
+        "lat": -34.1724086,
+        "lng": -70.7157046
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "RENGO",
+        "SUCURSAL": "RENGO",
+        "DIRECCION": "URRIOLA 17",
+        "ESTADO": "ABIERTO",
+        "lat": -34.4087642,
+        "lng": -70.8604304
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "SAN FERNANDO",
+        "SUCURSAL": "SAN FERNANDO",
+        "DIRECCION": "AV. BERNARDO O'HIGGINS 545",
+        "ESTADO": "ABIERTO",
+        "lat": -34.5888699,
+        "lng": -70.9858596
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "SAN VICENTE TAGUA-TAGU",
+        "SUCURSAL": "SAN VICENTE DE TAGUA-TAGUA",
+        "DIRECCION": "GERMAN RIESCO 664",
+        "ESTADO": "ABIERTO",
+        "lat": -34.4403054,
+        "lng": -71.0753691
+    },
+    {
+        "RG": "VI",
+        "COMUNA": "SANTA CRUZ",
+        "SUCURSAL": "SANTA CRUZ",
+        "DIRECCION": "CLAUDIO CANCINO 65",
+        "ESTADO": "ABIERTO",
+        "lat": -34.6404401,
+        "lng": -71.3675918
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "CAUQUENES",
+        "SUCURSAL": "CAUQUENES",
+        "DIRECCION": "ANTONIO VARAS S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -35.9663412,
+        "lng": -72.3225626
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "CONSTITUCION",
+        "SUCURSAL": "CONSTITUCION",
+        "DIRECCION": "MONTT 425",
+        "ESTADO": "ABIERTO",
+        "lat": -35.3311728,
+        "lng": -72.4122795
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "CURICO",
+        "SUCURSAL": "CURICO - CENTRO",
+        "DIRECCION": "CARMEN 556",
+        "ESTADO": "ABIERTO",
+        "lat": -34.9854067,
+        "lng": -71.2385695
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "LINARES",
+        "SUCURSAL": "LINARES",
+        "DIRECCION": "MANUEL RODRIGUEZ 610",
+        "ESTADO": "ABIERTO",
+        "lat": -35.8449669,
+        "lng": -71.5967651
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "MOLINA",
+        "SUCURSAL": "MOLINA",
+        "DIRECCION": "QUECHEREGUAS 1748, LOCAL 2",
+        "ESTADO": "ABIERTO",
+        "lat": -35.1128182,
+        "lng": -71.2797061
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "PARRAL",
+        "SUCURSAL": "PARRAL",
+        "DIRECCION": "DIECIOCHO 720",
+        "ESTADO": "ABIERTO",
+        "lat": -36.142148,
+        "lng": -71.822715
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "SAN JAVIER",
+        "SUCURSAL": "SAN JAVIER",
+        "DIRECCION": "ARTURO PRAT 2486",
+        "ESTADO": "ABIERTO",
+        "lat": -35.59520759999999,
+        "lng": -71.7323402
+    },
+    {
+        "RG": "VII",
+        "COMUNA": "TALCA",
+        "SUCURSAL": "TALCA",
+        "DIRECCION": "1 ORIENTE 1150",
+        "ESTADO": "ABIERTO",
+        "lat": -35.426588,
+        "lng": -71.6651849
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "ARAUCO",
+        "SUCURSAL": "ARAUCO",
+        "DIRECCION": "CAUPOLICAN 340, LOCAL 3 Y 5",
+        "ESTADO": "ABIERTO",
+        "lat": -37.2461637,
+        "lng": -73.31851449999999
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CAÑETE",
+        "SUCURSAL": "CAÑETE",
+        "DIRECCION": "CORNELIO SAAVEDRA 781",
+        "ESTADO": "ABIERTO",
+        "lat": -37.7991334,
+        "lng": -73.3900103
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CHIGUAYANTE",
+        "SUCURSAL": "CHIGUAYANTE",
+        "DIRECCION": "COCHRANE 120 LOCAL 4",
+        "ESTADO": "ABIERTO",
+        "lat": -36.9353152,
+        "lng": -73.02114159999999
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CONCEPCION",
+        "SUCURSAL": "CONCEPCION - BOULEVARD",
+        "DIRECCION": "JORGE ALESSANDRI 3177, LOCAL 20, MALL PLAZA EL TREBOL",
+        "ESTADO": "ABIERTO",
+        "lat": -36.8201352,
+        "lng": -73.0443904
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CONCEPCION",
+        "SUCURSAL": "CONCEPCION - CENTRO",
+        "DIRECCION": "COLO COLO 417",
+        "ESTADO": "ABIERTO",
+        "lat": -36.8266535,
+        "lng": -73.04846789999999
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CONCEPCION",
+        "SUCURSAL": "CONCEPCION - UNIVERSIDAD",
+        "DIRECCION": "GALERIA EL FORO, LOCAL 3, UNIVERSIDAD DE CONCEPCION",
+        "ESTADO": "ABIERTO",
+        "lat": -36.8201352,
+        "lng": -73.0443904
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CONCEPCION",
+        "SUCURSAL": "CONCEPCION CHACABUCO",
+        "DIRECCION": "CHACABUCO 70",
+        "ESTADO": "ABIERTO",
+        "lat": -36.8341937,
+        "lng": -73.0548242
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CORONEL",
+        "SUCURSAL": "CORONEL",
+        "DIRECCION": "MANUEL MONTT 798",
+        "ESTADO": "ABIERTO",
+        "lat": -37.029973,
+        "lng": -73.1457849
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CURANILAHUE",
+        "SUCURSAL": "CURANILAHUE",
+        "DIRECCION": "CARDENIO AVELLO 720",
+        "ESTADO": "ABIERTO",
+        "lat": -37.4762651,
+        "lng": -73.3462598
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "LEBU",
+        "SUCURSAL": "LEBU",
+        "DIRECCION": "ANDRES BELLO 215 (ESQ. PEREZ)",
+        "ESTADO": "ABIERTO",
+        "lat": -37.6080479,
+        "lng": -73.6514907
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "LOTA",
+        "SUCURSAL": "LOTA",
+        "DIRECCION": "PEDRO AGUIRRE CERDA 457",
+        "ESTADO": "ABIERTO",
+        "lat": -37.093639,
+        "lng": -73.156402
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "PENCO",
+        "SUCURSAL": "PENCO",
+        "DIRECCION": "O'HIGGINS 500",
+        "ESTADO": "ABIERTO",
+        "lat": -36.7392657,
+        "lng": -72.9928346
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "TALCAHUANO",
+        "SUCURSAL": "TALCAHUANO",
+        "DIRECCION": "AVENIDACRISTOBAL COLON553- LOCAL 2",
+        "ESTADO": "ABIERTO",
+        "lat": -36.7115576,
+        "lng": -73.1319286
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "TOME",
+        "SUCURSAL": "TOME",
+        "DIRECCION": "IGNACIO SERRANO 1055",
+        "ESTADO": "ABIERTO",
+        "lat": -36.618475,
+        "lng": -72.958197
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "SAN PEDRO DE LA PAZ",
+        "SUCURSAL": "VILLA SAN PEDRO",
+        "DIRECCION": "MICHIMALONCO 1021",
+        "ESTADO": "ABIERTO",
+        "lat": -36.8427902,
+        "lng": -73.0929656
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "BULNES",
+        "SUCURSAL": "BULNES",
+        "DIRECCION": "VICTOR BIANCHI 411",
+        "ESTADO": "ABIERTO",
+        "lat": -36.7410655,
+        "lng": -72.30307090000001
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "CABRERO",
+        "SUCURSAL": "CABRERO",
+        "DIRECCION": "AV. VIAL S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -37.0362847,
+        "lng": -72.4058484
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "CHILLAN",
+        "SUCURSAL": "CHILLAN",
+        "DIRECCION": "LIBERTAD 501",
+        "ESTADO": "ABIERTO",
+        "lat": -36.606048,
+        "lng": -72.10329
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "CHILLAN VIEJO",
+        "SUCURSAL": "CHILLAN VIEJO",
+        "DIRECCION": "ANGEL PARRA 493-A",
+        "ESTADO": "ABIERTO",
+        "lat": -36.6235477,
+        "lng": -72.1310313
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "CHILLAN",
+        "SUCURSAL": "CHILLAN 5 DE ABRIL",
+        "DIRECCION": "5 DE ABRIL 638 - A",
+        "ESTADO": "ABIERTO",
+        "lat": -36.6084781,
+        "lng": -72.101644
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "COELEMU",
+        "SUCURSAL": "COELEMU",
+        "DIRECCION": "FRANCISCO BARROS 229",
+        "ESTADO": "ABIERTO",
+        "lat": -36.4899649,
+        "lng": -72.7045667
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "LAJA",
+        "SUCURSAL": "LAJA",
+        "DIRECCION": "BALMACEDA 280, LOCAL 7 Y 8",
+        "ESTADO": "ABIERTO",
+        "lat": -33.0457453,
+        "lng": -71.4417452
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "LOS ANGELES",
+        "SUCURSAL": "LOS ANGELES",
+        "DIRECCION": "CAUPOLICAN 464",
+        "ESTADO": "ABIERTO",
+        "lat": -37.471386,
+        "lng": -72.35209689999999
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "MULCHEN",
+        "SUCURSAL": "MULCHEN",
+        "DIRECCION": "ANIBAL PINTO 473",
+        "ESTADO": "ABIERTO",
+        "lat": -37.7204501,
+        "lng": -72.2443354
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "NACIMIENTO",
+        "SUCURSAL": "NACIMIENTO",
+        "DIRECCION": "ANIBAL PINTO 477",
+        "ESTADO": "ABIERTO",
+        "lat": -37.5019511,
+        "lng": -72.6726472
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "QUIRIHUE",
+        "SUCURSAL": "QUIRIHUE",
+        "DIRECCION": "ESMERALDA 698",
+        "ESTADO": "ABIERTO",
+        "lat": -36.2826661,
+        "lng": -72.5397871
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "SAN CARLOS",
+        "SUCURSAL": "SAN CARLOS",
+        "DIRECCION": "MAIPU 694",
+        "ESTADO": "ABIERTO",
+        "lat": -36.4240186,
+        "lng": -71.958691
+    },
+    {
+        "RG": "VIII",
+        "COMUNA": "YUMBEL",
+        "SUCURSAL": "YUMBEL",
+        "DIRECCION": "OHIGGINS 899",
+        "ESTADO": "ABIERTO",
+        "lat": -37.0975094,
+        "lng": -72.5614607
+    },
+    {
+        "RG": "XVI",
+        "COMUNA": "YUNGAY",
+        "SUCURSAL": "YUNGAY",
+        "DIRECCION": "ESMERALDA 380",
+        "ESTADO": "ABIERTO",
+        "lat": -37.12018279999999,
+        "lng": -72.0192962
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "ANGOL",
+        "SUCURSAL": "ANGOL",
+        "DIRECCION": "LAUTARO 226",
+        "ESTADO": "ABIERTO",
+        "lat": -37.798228,
+        "lng": -72.708384
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "CARAHUE",
+        "SUCURSAL": "CARAHUE",
+        "DIRECCION": "VILLAGRAN 391",
+        "ESTADO": "ABIERTO",
+        "lat": -38.711771,
+        "lng": -73.16377829999999
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "COLLIPULLI",
+        "SUCURSAL": "COLLIPULLI",
+        "DIRECCION": "O'CARROL 785",
+        "ESTADO": "ABIERTO",
+        "lat": -37.9557681,
+        "lng": -72.4378682
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "CUNCO",
+        "SUCURSAL": "CUNCO",
+        "DIRECCION": "SANTA MARÍA 182",
+        "ESTADO": "ABIERTO",
+        "lat": -38.9321084,
+        "lng": -72.03549890000001
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "CURACAUTIN",
+        "SUCURSAL": "CURACAUTIN",
+        "DIRECCION": "YUNGAY 265",
+        "ESTADO": "ABIERTO",
+        "lat": -38.4375813,
+        "lng": -71.8874968
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "FREIRE",
+        "SUCURSAL": "FREIRE",
+        "DIRECCION": "CAMALEZ 113",
+        "ESTADO": "ABIERTO",
+        "lat": -38.9515129,
+        "lng": -72.62439119999999
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "GORBEA",
+        "SUCURSAL": "GORBEA",
+        "DIRECCION": "FREIRE 799 LOCAL 2",
+        "ESTADO": "ABIERTO",
+        "lat": -39.1052746,
+        "lng": -72.67540509999999
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "LAUTARO",
+        "SUCURSAL": "LAUTARO",
+        "DIRECCION": "O'HIGGINS 1050",
+        "ESTADO": "ABIERTO",
+        "lat": -38.5341586,
+        "lng": -72.4360552
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "LONCOCHE",
+        "SUCURSAL": "LONCOCHE",
+        "DIRECCION": "PRAT 590",
+        "ESTADO": "ABIERTO",
+        "lat": -39.3713591,
+        "lng": -72.6298953
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "NUEVA IMPERIAL",
+        "SUCURSAL": "NUEVA IMPERIAL",
+        "DIRECCION": "PEDRO LAGOS 339",
+        "ESTADO": "ABIERTO",
+        "lat": -38.7451926,
+        "lng": -72.9501444
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "PITRUFQUEN",
+        "SUCURSAL": "PITRUFQUEN",
+        "DIRECCION": "FRANCISCO BILBAO 593",
+        "ESTADO": "ABIERTO",
+        "lat": -38.987295,
+        "lng": -72.63743029999999
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "PUCON",
+        "SUCURSAL": "PUCON",
+        "DIRECCION": "FRESIA 183",
+        "ESTADO": "ABIERTO",
+        "lat": -39.2742693,
+        "lng": -71.9769767
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "TEMUCO",
+        "SUCURSAL": "TEMUCO - CENTRO",
+        "DIRECCION": "PORTALES 801",
+        "ESTADO": "ABIERTO",
+        "lat": -38.7372244,
+        "lng": -72.5897489
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "TEMUCO",
+        "SUCURSAL": "TEMUCO - PORTAL",
+        "DIRECCION": "AV. ALEMANIA 0671, LOCAL 1061",
+        "ESTADO": "ABIERTO",
+        "lat": -38.7340483,
+        "lng": -72.6127376
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "TRAIGUEN",
+        "SUCURSAL": "TRAIGUEN",
+        "DIRECCION": "CORONEL URRUTIA 467",
+        "ESTADO": "ABIERTO",
+        "lat": -38.2511487,
+        "lng": -72.66786809999999
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "VICTORIA",
+        "SUCURSAL": "VICTORIA",
+        "DIRECCION": "CALAMA 1208",
+        "ESTADO": "ABIERTO",
+        "lat": -38.2347908,
+        "lng": -72.3311015
+    },
+    {
+        "RG": "IX",
+        "COMUNA": "VILLARRICA",
+        "SUCURSAL": "VILLARRICA",
+        "DIRECCION": "ANFION MUÑOZ 315",
+        "ESTADO": "ABIERTO",
+        "lat": -39.2796508,
+        "lng": -72.2267408
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "LA UNION",
+        "SUCURSAL": "LA UNION",
+        "DIRECCION": "ARTURO PRAT 680",
+        "ESTADO": "ABIERTO",
+        "lat": -40.2945919,
+        "lng": -73.0829062
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "LANCO",
+        "SUCURSAL": "LANCO",
+        "DIRECCION": "UNIÓN 187, LOCAL 2",
+        "ESTADO": "ABIERTO",
+        "lat": -39.4557306,
+        "lng": -72.7663139
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "LOS LAGOS",
+        "SUCURSAL": "LOS LAGOS",
+        "DIRECCION": "PATRICIO LYNCH 174",
+        "ESTADO": "ABIERTO",
+        "lat": -39.8624765,
+        "lng": -72.8176373
+    },
+    {
+        "RG": "X",
+        "COMUNA": "OSORNO",
+        "SUCURSAL": "OSORNO",
+        "DIRECCION": "O'HIGGINS 645",
+        "ESTADO": "ABIERTO",
+        "lat": -40.57371300000001,
+        "lng": -73.1370934
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "PAILLACO",
+        "SUCURSAL": "PAILLACO",
+        "DIRECCION": "CAMILO HENRIQUEZ 403",
+        "ESTADO": "ABIERTO",
+        "lat": -40.0731586,
+        "lng": -72.8717461
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "PANGUIPULLI",
+        "SUCURSAL": "PANGUIPULLI",
+        "DIRECCION": "ARTURO ALESSANDRI S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -39.6445798,
+        "lng": -72.3395024
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "RIO BUENO",
+        "SUCURSAL": "RIO BUENO",
+        "DIRECCION": "PEDRO LAGOS 470",
+        "ESTADO": "ABIERTO",
+        "lat": -40.3326723,
+        "lng": -72.9550533
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "SAN JOSE DE LA MARIQUINA",
+        "SUCURSAL": "SAN JOSE DE LA MARIQUINA",
+        "DIRECCION": "MARIQUINA 1202",
+        "ESTADO": "ABIERTO",
+        "lat": -39.5388049,
+        "lng": -72.9619428
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "VALDIVIA",
+        "SUCURSAL": "VALDIVIA - CENTRO",
+        "DIRECCION": "BERNARDO O'HIGGINS 575",
+        "ESTADO": "ABIERTO",
+        "lat": -39.8359228,
+        "lng": -73.2092709
+    },
+    {
+        "RG": "XIV",
+        "COMUNA": "VALDIVIA",
+        "SUCURSAL": "VALDIVIA - PLANTA CORREOS",
+        "DIRECCION": "BUERAS 1931",
+        "ESTADO": "ABIERTO",
+        "lat": -39.82523219999999,
+        "lng": -73.2292087
+    },
+    {
+        "RG": "X",
+        "COMUNA": "ANCUD",
+        "SUCURSAL": "ANCUD",
+        "DIRECCION": "PUDETO 201",
+        "ESTADO": "ABIERTO",
+        "lat": -41.8678311,
+        "lng": -73.8278011
+    },
+    {
+        "RG": "X",
+        "COMUNA": "CALBUCO",
+        "SUCURSAL": "CALBUCO",
+        "DIRECCION": "ERNESTO RIQUELME 28",
+        "ESTADO": "ABIERTO",
+        "lat": -41.7704464,
+        "lng": -73.12825029999999
+    },
+    {
+        "RG": "X",
+        "COMUNA": "CASTRO",
+        "SUCURSAL": "CASTRO",
+        "DIRECCION": "BERNARDO O'HIGGINS 338",
+        "ESTADO": "ABIERTO",
+        "lat": -42.482529,
+        "lng": -73.7657091
+    },
+    {
+        "RG": "X",
+        "COMUNA": "FRESIA",
+        "SUCURSAL": "FRESIA",
+        "DIRECCION": "IRARRAZABAL 401",
+        "ESTADO": "ABIERTO",
+        "lat": -41.1538684,
+        "lng": -73.4232134
+    },
+    {
+        "RG": "X",
+        "COMUNA": "FRUTILLAR",
+        "SUCURSAL": "FRUTILLAR ALTO",
+        "DIRECCION": "AV. ALESSANDRI 430, LOCAL 1",
+        "ESTADO": "ABIERTO",
+        "lat": -41.1259196,
+        "lng": -73.0596602
+    },
+    {
+        "RG": "X",
+        "COMUNA": "LLANQUIHUE",
+        "SUCURSAL": "LLANQUIHUE",
+        "DIRECCION": "BERNARDO OHIGGINS 426",
+        "ESTADO": "ABIERTO",
+        "lat": -41.2583223,
+        "lng": -73.00497589999999
+    },
+    {
+        "RG": "X",
+        "COMUNA": "PUERTO MONTT",
+        "SUCURSAL": "PUERTO MONTT - CENTRO",
+        "DIRECCION": "RANCAGUA 126",
+        "ESTADO": "ABIERTO",
+        "lat": -41.4719578,
+        "lng": -72.94063539999999
+    },
+    {
+        "RG": "X",
+        "COMUNA": "PUERTO MONTT",
+        "SUCURSAL": "PUERTO MONTT - POLPAICO",
+        "DIRECCION": "POLPAICO 17",
+        "ESTADO": "ABIERTO",
+        "lat": -41.4576382,
+        "lng": -72.95941499999999
+    },
+    {
+        "RG": "X",
+        "COMUNA": "PUERTO MONTT",
+        "SUCURSAL": "PUERTO MONTT - COSTANERA",
+        "DIRECCION": "ILLAPEL N° 10 LOCAL 5 EDIFICIO MALL COSTANERA",
+        "ESTADO": "ABIERTO",
+        "lat": -41.4726033,
+        "lng": -72.93678539999999
+    },
+    {
+        "RG": "X",
+        "COMUNA": "PUERTO MONTT",
+        "SUCURSAL": "PUERTO MONTT-ALERCE",
+        "DIRECCION": "CALLE GABRIELA MISTRAL 957 LOCAL 1 CENTRO COMERCIAL ALERCE",
+        "ESTADO": "ABIERTO",
+        "lat": -41.4050292,
+        "lng": -72.91663129999999
+    },
+    {
+        "RG": "X",
+        "COMUNA": "PUERTO VARAS",
+        "SUCURSAL": "PUERTO VARAS",
+        "DIRECCION": "SAN JOSE 242",
+        "ESTADO": "ABIERTO",
+        "lat": -41.3172211,
+        "lng": -72.98365749999999
+    },
+    {
+        "RG": "X",
+        "COMUNA": "PURRANQUE",
+        "SUCURSAL": "PURRANQUE",
+        "DIRECCION": "PEDRO MONTT 196",
+        "ESTADO": "ABIERTO",
+        "lat": -40.91222339999999,
+        "lng": -73.1593026
+    },
+    {
+        "RG": "X",
+        "COMUNA": "QUELLON",
+        "SUCURSAL": "QUELLON",
+        "DIRECCION": "22 DE MAYO 397",
+        "ESTADO": "ABIERTO",
+        "lat": -43.1178201,
+        "lng": -73.6176876
+    },
+    {
+        "RG": "XI",
+        "COMUNA": "COYHAIQUE",
+        "SUCURSAL": "COYHAIQUE",
+        "DIRECCION": "COCHRANE 226",
+        "ESTADO": "ABIERTO",
+        "lat": -45.5712254,
+        "lng": -72.068265
+    },
+    {
+        "RG": "XI",
+        "COMUNA": "PUERTO AYSEN",
+        "SUCURSAL": "PUERTO AYSEN",
+        "DIRECCION": "SARGENTO ALDEA 1265 A",
+        "ESTADO": "ABIERTO",
+        "lat": -45.4024927,
+        "lng": -72.690518
+    },
+    {
+        "RG": "XII",
+        "COMUNA": "ANTARTICA",
+        "SUCURSAL": "BASE EDUARDO FREI",
+        "DIRECCION": "BASE PRESIDENTE EDUARDO FREI MONTALVA",
+        "ESTADO": "ABIERTO",
+        "lat": -35.675147,
+        "lng": -71.542969
+    },
+    {
+        "RG": "XII",
+        "COMUNA": "PUERTO NATALES",
+        "SUCURSAL": "PUERTO NATALES",
+        "DIRECCION": "EBERHARD 429",
+        "ESTADO": "ABIERTO",
+        "lat": -51.7270219,
+        "lng": -72.50617749999999
+    },
+    {
+        "RG": "XII",
+        "COMUNA": "PORVENIR",
+        "SUCURSAL": "PUERTO PORVENIR",
+        "DIRECCION": "BERNARDO PHILLIPI 183",
+        "ESTADO": "ABIERTO",
+        "lat": -53.2972251,
+        "lng": -70.36932329999999
+    },
+    {
+        "RG": "XII",
+        "COMUNA": "CABO DE HORNOS",
+        "SUCURSAL": "PUERTO WILLIAMS",
+        "DIRECCION": "CENTRO COMERCIAL S/Nº",
+        "ESTADO": "ABIERTO",
+        "lat": -55.1225102,
+        "lng": -69.4067496
+    },
+    {
+        "RG": "XII",
+        "COMUNA": "PUNTA ARENAS",
+        "SUCURSAL": "PUNTA ARENAS - CENTRO",
+        "DIRECCION": "BORIES 911",
+        "ESTADO": "ABIERTO",
+        "lat": -53.1613759,
+        "lng": -70.9075283
+    },
+    {
+        "RG": "XII",
+        "COMUNA": "PUNTA ARENAS",
+        "SUCURSAL": "PUNTA ARENAS - ZONA FRANCA",
+        "DIRECCION": "AV. PRESIDENTE MANUEL BULNES S/Nº, ZONA FRANCA",
+        "ESTADO": "ABIERTO",
+        "lat": -53.1334646,
+        "lng": -70.87665609999999
+    },
+    {
+        "RG": "XII",
+        "COMUNA": "PUNTA ARENAS",
+        "SUCURSAL": "PUNTA ARENAS - AUSTRAL",
+        "DIRECCION": "AV. ESPAÑA 01375 LOCAL 07",
+        "ESTADO": null,
+        "lat": -53.1384865,
+        "lng": -70.8926774
+    }
+]

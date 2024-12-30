@@ -1,0 +1,8 @@
+streamlit==1.25.0
+python-dotenv==1.0.0
+supabase-py==0.1.7  # Versión actualizada de la librería de Supabase
+httpx[http2]==0.24.0
+bcrypt==4.0.1
+pandas==1.5.3
+altair==5.0.1
+requests==2.31.0
