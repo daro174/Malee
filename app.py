@@ -159,7 +159,7 @@ def admin_user_management():
                 if st.button("Aprobar", key=f"approve_{user['id_user']}"):
                     approve_user(user['id_user'], new_role)
                     st.success(f"Usuario {user['username']} aprobado con rol '{new_role}'.")
-                    st.experimental_rerun()
+                    st.rerun()
 
     # Mostrar todos los usuarios
     st.subheader("Todos los Usuarios")
@@ -170,7 +170,7 @@ def admin_user_management():
                 if st.button("Eliminar Usuario", key=f"del_{user['id_user']}"):
                     delete_user(user['id_user'])
                     st.warning(f"Usuario {user['username']} eliminado.")
-                    st.experimental_rerun()
+                    st.rerun()
 
 # -------------------------------------------------------------------
 # Empleados
@@ -205,7 +205,7 @@ def empleados_page():
             if nombre and apellido and telefono and direccion and cargo and id_user:
                 create_empleado(nombre, apellido, telefono, direccion, cargo, id_user)
                 st.success("Empleado creado. Refresca la página para ver cambios.")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Por favor, completa todos los campos.")
 
@@ -242,14 +242,14 @@ def empleados_page():
                             new_id_user
                         )
                         st.success("Empleado actualizado. Refresca la página para ver cambios.")
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.error("Por favor, completa todos los campos.")
 
             if st.button("Eliminar Empleado"):
                 delete_empleado(selected_emp['id'])
                 st.warning("Empleado eliminado. Refresca la página para ver cambios.")
-                st.experimental_rerun()
+                st.rerun()
 
 # -------------------------------------------------------------------
 # Clientes
@@ -284,7 +284,7 @@ def clientes_page():
                 resultado = create_cliente(nombre, apellido, telefono, direccion, email)
                 if resultado:
                     st.success("Cliente creado. Refresca la página para ver cambios.")
-                    st.experimental_rerun()
+                    st.rerun()
                 else:
                     st.error("No se pudo crear el cliente. Revisa los logs para más detalles.")
             else:
@@ -319,7 +319,7 @@ def clientes_page():
                         )
                         if resultado:
                             st.success("Cliente actualizado. Refresca la página para ver cambios.")
-                            st.experimental_rerun()
+                            st.rerun()
                         else:
                             st.error("No se pudo actualizar el cliente. Revisa los logs para más detalles.")
                     else:
@@ -334,7 +334,7 @@ def clientes_page():
                         st.success("Cliente eliminado correctamente.")
                     else:
                         st.error("No se pudo eliminar el cliente. Asegúrate de que no tenga pedidos asociados.")
-                    st.experimental_rerun()
+                    st.rerun()
 
 
 
@@ -459,7 +459,7 @@ def pedidos_unificados_page():
                     region
                 )
                 st.success("Pedido creado. Refresca la página para ver cambios.")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Por favor, completa todos los campos obligatorios.")
 
@@ -533,7 +533,7 @@ def pedidos_unificados_page():
                             new_region
                         )
                         st.success("Pedido actualizado. Refresca la página para ver cambios.")
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.error("Por favor, completa todos los campos obligatorios.")
 
@@ -544,7 +544,7 @@ def pedidos_unificados_page():
                 if eliminar_pedido:
                     delete_pedido(selected_ped["id_pedido"])
                     st.warning("Pedido eliminado. Refresca la página para ver cambios.")
-                    st.experimental_rerun()
+                    st.rerun()
 
 # -------------------------------------------------------------------
 # Página de Gráficos (Ejemplo)
@@ -599,7 +599,7 @@ def main_page():
         elif choice == "Cerrar Sesión":
             st.session_state.pop("user", None)
             st.info("Sesión cerrada.")
-            st.experimental_rerun()
+            st.rerun()
 
     elif user_role == "user":
         choice = st.sidebar.selectbox("Opciones", [
@@ -620,13 +620,13 @@ def main_page():
         elif choice == "Cerrar Sesión":
             st.session_state.pop("user", None)
             st.info("Sesión cerrada.")
-            st.experimental_rerun()
+            st.rerun()
     else:
         st.write(f"Tu rol actual es '{user_role}', no tienes acceso al menú.")
         if st.button("Cerrar Sesión"):
             st.session_state.pop("user", None)
             st.info("Sesión cerrada.")
-            st.experimental_rerun()
+            st.rerun()
 
 # -------------------------------------------------------------------
 # Lógica principal
@@ -643,7 +643,5 @@ def main():
     else:
         main_page()
 
-if __name__ == "__main__":
-    main()
 if __name__ == "__main__":
     main()
