@@ -281,9 +281,12 @@ def clientes_page():
         submitted = st.form_submit_button("Crear Cliente")
         if submitted:
             if nombre and apellido and telefono and direccion and email:
-                create_cliente(nombre, apellido, telefono, direccion, email)
-                st.success("Cliente creado. Refresca la página para ver cambios.")
-                st.experimental_rerun()
+                resultado = create_cliente(nombre, apellido, telefono, direccion, email)
+                if resultado:
+                    st.success("Cliente creado. Refresca la página para ver cambios.")
+                    st.experimental_rerun()
+                else:
+                    st.error("No se pudo crear el cliente. Revisa los logs para más detalles.")
             else:
                 st.error("Por favor, completa todos los campos.")
 
@@ -306,7 +309,7 @@ def clientes_page():
                 submitted_update = st.form_submit_button("Actualizar Cliente")
                 if submitted_update:
                     if new_nombre and new_apellido and new_telefono and new_direccion and new_email:
-                        update_cliente(
+                        resultado = update_cliente(
                             selected_cli['id_cliente'],
                             new_nombre,
                             new_apellido,
@@ -314,15 +317,25 @@ def clientes_page():
                             new_direccion,
                             new_email
                         )
-                        st.success("Cliente actualizado. Refresca la página para ver cambios.")
-                        st.experimental_rerun()
+                        if resultado:
+                            st.success("Cliente actualizado. Refresca la página para ver cambios.")
+                            st.experimental_rerun()
+                        else:
+                            st.error("No se pudo actualizar el cliente. Revisa los logs para más detalles.")
                     else:
-                        st.error("Por favor, completa todos los campos.")
+                        st.error("Por favor, completa todos los campos obligatorios.")
 
-            if st.button("Eliminar Cliente"):
-                delete_cliente(selected_cli['id_cliente'])
-                st.warning("Cliente eliminado. Refresca la página para ver cambios.")
-                st.experimental_rerun()
+            with st.form("EliminarClienteForm"):
+                st.warning(f"¿Estás seguro de que deseas eliminar al cliente {selected_cli['nombre']} {selected_cli['apellido']}?")
+                eliminar_cliente = st.form_submit_button("Eliminar Cliente")
+                if eliminar_cliente:
+                    resultado = delete_cliente(selected_cli['id_cliente'])
+                    if resultado:
+                        st.success("Cliente eliminado correctamente.")
+                    else:
+                        st.error("No se pudo eliminar el cliente. Revisa los logs para más detalles.")
+                    st.experimental_rerun()
+
 
 # -------------------------------------------------------------------
 # Pedidos Unificados (seleccionando Cliente y Empleado por nombre)
