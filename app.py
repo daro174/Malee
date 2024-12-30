@@ -333,8 +333,9 @@ def clientes_page():
                     if resultado:
                         st.success("Cliente eliminado correctamente.")
                     else:
-                        st.error("No se pudo eliminar el cliente. Revisa los logs para más detalles.")
+                        st.error("No se pudo eliminar el cliente. Asegúrate de que no tenga pedidos asociados.")
                     st.experimental_rerun()
+
 
 
 # -------------------------------------------------------------------
@@ -365,7 +366,7 @@ def pedidos_unificados_page():
                     nearest, dist_km = find_nearest_branch(lat_user, lon_user, SUCURSALES)
                     if nearest:
                         # Asegúrate de que la clave correcta sea 'nombre' según tu JSON
-                        sucursal_nombre = nearest.get("nombre", "Desconocida")
+                        sucursal_nombre = nearest.get("SUCURSAL", "Desconocida")
                         st.success(f"La sucursal más cercana es: {sucursal_nombre} (~{dist_km:.2f} km).")
                     else:
                         st.error("No se encontró ninguna sucursal en la lista local.")
@@ -642,5 +643,7 @@ def main():
     else:
         main_page()
 
+if __name__ == "__main__":
+    main()
 if __name__ == "__main__":
     main()
