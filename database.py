@@ -1,9 +1,19 @@
-# database.py
-
 import os
 from dotenv import load_dotenv
 from supabase import create_client, Client
 import bcrypt
+import logging
+from postgrest.exceptions import APIError
+
+# Configura el logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(name)s %(message)s',
+    handlers=[
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------
 #             Carga de variables de entorno y conexión a Supabase
@@ -53,24 +63,28 @@ def register_user(username: str, password: str):
     """
     Registra un nuevo usuario.
       - Si no existe admin, el primer usuario se crea con rol='admin', activado=True.
-      - Si ya existe admin, se crea con rol='pendiente', activado=False.
+      - Si ya existe admin, se crea con rol='user' y activado=True.
     """
     # Verificar si ya hay admin
     if not check_admin_exists():
         rol = "admin"
         activado = True
     else:
-        rol = "user"  # Asignar 'user' directamente o 'pendiente' según tu lógica
+        rol = "user"  # Asignar 'user' directamente
         activado = True  # Cambiar a False si deseas que los usuarios estén pendientes de aprobación
 
     hashed_pw = hash_password(password).decode("utf-8")
-    data = supabase.table("usuarios").insert({
-        "username": username,
-        "pass": hashed_pw,
-        "rol": rol,
-        "activado": activado
-    }).execute()
-    return data.data
+    try:
+        data = supabase.table("usuarios").insert({
+            "username": username,
+            "pass": hashed_pw,
+            "rol": rol,
+            "activado": activado
+        }).execute()
+        return data.data
+    except APIError as e:
+        logger.error(f"APIError al registrar usuario '{username}': {e}")
+        return None
 
 def authenticate_user(username: str, password: str):
     """
@@ -100,10 +114,14 @@ def approve_user(user_id: int, new_role="user"):
     """
     Cambia el rol de un usuario 'pendiente' a new_role y lo activa.
     """
-    supabase.table("usuarios").update({
-        "rol": new_role,
-        "activado": True
-    }).eq("id_user", user_id).execute()
+    try:
+        supabase.table("usuarios").update({
+            "rol": new_role,
+            "activado": True
+        }).eq("id_user", user_id).execute()
+        logger.info(f"Usuario con ID {user_id} aprobado con rol '{new_role}'.")
+    except APIError as e:
+        logger.error(f"APIError al aprobar usuario con ID {user_id}: {e}")
 
 def get_all_users():
     """
@@ -116,7 +134,11 @@ def delete_user(user_id: int):
     """
     Elimina un usuario por su id_user.
     """
-    supabase.table("usuarios").delete().eq("id_user", user_id).execute()
+    try:
+        supabase.table("usuarios").delete().eq("id_user", user_id).execute()
+        logger.info(f"Usuario con ID {user_id} eliminado.")
+    except APIError as e:
+        logger.error(f"APIError al eliminar usuario con ID {user_id}: {e}")
 
 # ---------------------------------------------------------------------
 #                  Empleados (CRUD)
@@ -126,27 +148,39 @@ def get_all_empleados():
     return resp.data
 
 def create_empleado(nombre, apellido, telefono, direccion, cargo, id_user):
-    supabase.table("empleados").insert({
-        "nombre": nombre,
-        "apellido": apellido,
-        "telefono": telefono,
-        "direccion": direccion,
-        "cargo": cargo,
-        "id_user": id_user
-    }).execute()
+    try:
+        supabase.table("empleados").insert({
+            "nombre": nombre,
+            "apellido": apellido,
+            "telefono": telefono,
+            "direccion": direccion,
+            "cargo": cargo,
+            "id_user": id_user
+        }).execute()
+        logger.info(f"Empleado '{nombre} {apellido}' creado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al crear empleado '{nombre} {apellido}': {e}")
 
 def update_empleado(empleado_id, nombre, apellido, telefono, direccion, cargo, id_user):
-    supabase.table("empleados").update({
-        "nombre": nombre,
-        "apellido": apellido,
-        "telefono": telefono,
-        "direccion": direccion,
-        "cargo": cargo,
-        "id_user": id_user
-    }).eq("id", empleado_id).execute()
+    try:
+        supabase.table("empleados").update({
+            "nombre": nombre,
+            "apellido": apellido,
+            "telefono": telefono,
+            "direccion": direccion,
+            "cargo": cargo,
+            "id_user": id_user
+        }).eq("id", empleado_id).execute()
+        logger.info(f"Empleado con ID {empleado_id} actualizado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al actualizar empleado con ID {empleado_id}: {e}")
 
 def delete_empleado(empleado_id):
-    supabase.table("empleados").delete().eq("id", empleado_id).execute()
+    try:
+        supabase.table("empleados").delete().eq("id", empleado_id).execute()
+        logger.info(f"Empleado con ID {empleado_id} eliminado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al eliminar empleado con ID {empleado_id}: {e}")
 
 # ---------------------------------------------------------------------
 #                  Clientes (CRUD)
@@ -156,25 +190,53 @@ def get_all_clientes():
     return response.data
 
 def create_cliente(nombre, apellido, telefono, direccion, email):
-    supabase.table("clientes").insert({
-        "nombre": nombre,
-        "apellido": apellido,
-        "telefono": telefono,
-        "direccion": direccion,
-        "email": email
-    }).execute()
+    try:
+        supabase.table("clientes").insert({
+            "nombre": nombre,
+            "apellido": apellido,
+            "telefono": telefono,
+            "direccion": direccion,
+            "email": email
+        }).execute()
+        logger.info(f"Cliente '{nombre} {apellido}' creado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al crear cliente '{nombre} {apellido}': {e}")
 
 def update_cliente(cliente_id, nombre, apellido, telefono, direccion, email):
-    supabase.table("clientes").update({
-        "nombre": nombre,
-        "apellido": apellido,
-        "telefono": telefono,
-        "direccion": direccion,
-        "email": email
-    }).eq("id_cliente", cliente_id).execute()
+    try:
+        supabase.table("clientes").update({
+            "nombre": nombre,
+            "apellido": apellido,
+            "telefono": telefono,
+            "direccion": direccion,
+            "email": email
+        }).eq("id_cliente", cliente_id).execute()
+        logger.info(f"Cliente con ID {cliente_id} actualizado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al actualizar cliente con ID {cliente_id}: {e}")
 
 def delete_cliente(cliente_id):
-    supabase.table("clientes").delete().eq("id_cliente", cliente_id).execute()
+    try:
+        logger.info(f"Intentando eliminar cliente con ID: {cliente_id}")
+        response = supabase.table("clientes").delete().eq("id_cliente", cliente_id).execute()
+        logger.info(f"Respuesta de la API: {response.status_code} - {response.json()}")
+
+        if response.status_code == 204:
+            logger.info(f"Cliente con ID {cliente_id} eliminado exitosamente.")
+            return True
+        elif response.status_code == 404:
+            logger.warning(f"Cliente con ID {cliente_id} no encontrado.")
+            return False
+        else:
+            logger.warning(f"Eliminación de cliente con ID {cliente_id} respondió con estado {response.status_code}: {response.json()}")
+            return False
+
+    except APIError as e:
+        logger.error(f"APIError al eliminar cliente con ID {cliente_id}: {e}")
+        return False
+    except Exception as e:
+        logger.error(f"Error inesperado al eliminar cliente con ID {cliente_id}: {e}")
+        return False
 
 # ---------------------------------------------------------------------
 #                         Pedidos (CRUD)
@@ -185,34 +247,62 @@ def get_all_pedidos():
 
 def create_pedido(cliente, detalles, fecha_pedido, estado, empleado_id,
                   direccion, color, rut, region):
-    supabase.table("pedidos").insert({
-        "cliente": cliente,
-        "detalles": detalles,
-        "fecha_pedido": fecha_pedido,
-        "estado": estado,
-        "empleado_id": empleado_id,
-        "direccion": direccion,
-        "color": color,
-        "rut": rut,
-        "region": region
-    }).execute()
+    try:
+        supabase.table("pedidos").insert({
+            "cliente": cliente,
+            "detalles": detalles,
+            "fecha_pedido": fecha_pedido,
+            "estado": estado,
+            "empleado_id": empleado_id,
+            "direccion": direccion,
+            "color": color,
+            "rut": rut,
+            "region": region
+        }).execute()
+        logger.info(f"Pedido creado exitosamente para cliente ID {cliente}.")
+    except APIError as e:
+        logger.error(f"APIError al crear pedido para cliente ID {cliente}: {e}")
 
 def update_pedido(id_pedido, cliente, detalles, fecha_pedido, estado,
                   empleado_id, direccion, color, rut, region):
-    supabase.table("pedidos").update({
-        "cliente": cliente,
-        "detalles": detalles,
-        "fecha_pedido": fecha_pedido,
-        "estado": estado,
-        "empleado_id": empleado_id,
-        "direccion": direccion,
-        "color": color,
-        "rut": rut,
-        "region": region
-    }).eq("id_pedido", id_pedido).execute()
+    try:
+        supabase.table("pedidos").update({
+            "cliente": cliente,
+            "detalles": detalles,
+            "fecha_pedido": fecha_pedido,
+            "estado": estado,
+            "empleado_id": empleado_id,
+            "direccion": direccion,
+            "color": color,
+            "rut": rut,
+            "region": region
+        }).eq("id_pedido", id_pedido).execute()
+        logger.info(f"Pedido con ID {id_pedido} actualizado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al actualizar pedido con ID {id_pedido}: {e}")
 
 def delete_pedido(id_pedido):
-    supabase.table("pedidos").delete().eq("id_pedido", id_pedido).execute()
+    try:
+        logger.info(f"Intentando eliminar pedido con ID: {id_pedido}")
+        response = supabase.table("pedidos").delete().eq("id_pedido", id_pedido).execute()
+        logger.info(f"Respuesta de la API: {response.status_code} - {response.json()}")
+
+        if response.status_code == 204:
+            logger.info(f"Pedido con ID {id_pedido} eliminado exitosamente.")
+            return True
+        elif response.status_code == 404:
+            logger.warning(f"Pedido con ID {id_pedido} no encontrado.")
+            return False
+        else:
+            logger.warning(f"Eliminación de pedido con ID {id_pedido} respondió con estado {response.status_code}: {response.json()}")
+            return False
+
+    except APIError as e:
+        logger.error(f"APIError al eliminar pedido con ID {id_pedido}: {e}")
+        return False
+    except Exception as e:
+        logger.error(f"Error inesperado al eliminar pedido con ID {id_pedido}: {e}")
+        return False
 
 # ---------------------------------------------------------------------
 #                         Trabajos (CRUD)
@@ -222,26 +312,39 @@ def get_all_trabajos():
     return response.data
 
 def create_trabajo(titulo, descripcion, fecha_inicio, fecha_termino, estado, pedido_id, empleado_id):
-    supabase.table("trabajos").insert({
-        "titulo": titulo,
-        "descripcion": descripcion,
-        "fecha_inicio": fecha_inicio,
-        "fecha_termino": fecha_termino,
-        "estado": estado,
-        "pedido_id": pedido_id,
-        "empleado_id": empleado_id
-    }).execute()
+    try:
+        supabase.table("trabajos").insert({
+            "titulo": titulo,
+            "descripcion": descripcion,
+            "fecha_inicio": fecha_inicio,
+            "fecha_termino": fecha_termino,
+            "estado": estado,
+            "pedido_id": pedido_id,
+            "empleado_id": empleado_id
+        }).execute()
+        logger.info(f"Trabajo '{titulo}' creado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al crear trabajo '{titulo}': {e}")
 
 def update_trabajo(id_trabajo, titulo, descripcion, fecha_inicio, fecha_termino, estado, pedido_id, empleado_id):
-    supabase.table("trabajos").update({
-        "titulo": titulo,
-        "descripcion": descripcion,
-        "fecha_inicio": fecha_inicio,
-        "fecha_termino": fecha_termino,
-        "estado": estado,
-        "pedido_id": pedido_id,
-        "empleado_id": empleado_id
-    }).eq("id_trabajo", id_trabajo).execute()
+    try:
+        supabase.table("trabajos").update({
+            "titulo": titulo,
+            "descripcion": descripcion,
+            "fecha_inicio": fecha_inicio,
+            "fecha_termino": fecha_termino,
+            "estado": estado,
+            "pedido_id": pedido_id,
+            "empleado_id": empleado_id
+        }).eq("id_trabajo", id_trabajo).execute()
+        logger.info(f"Trabajo con ID {id_trabajo} actualizado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al actualizar trabajo con ID {id_trabajo}: {e}")
 
 def delete_trabajo(id_trabajo):
-    supabase.table("trabajos").delete().eq("id_trabajo", id_trabajo).execute()
+    try:
+        supabase.table("trabajos").delete().eq("id_trabajo", id_trabajo).execute()
+        logger.info(f"Trabajo con ID {id_trabajo} eliminado exitosamente.")
+    except APIError as e:
+        logger.error(f"APIError al eliminar trabajo con ID {id_trabajo}: {e}")
+
