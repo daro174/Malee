@@ -29,7 +29,7 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
 narwhals==1.19.1
-numpy==1.25.0
+numpy==1.24.4  # Cambiado a una versión compatible sin distutils
 packaging==24.2
 pandas==1.5.3
 pillow==10.4.0
@@ -46,7 +46,7 @@ python-dotenv==1.0.0
 pytz==2024.2
 realtime==1.0.6
 referencing==0.35.1
-requests==2.28.2
+requests==2.28.2  # Compatible con urllib3<1.27
 rich==13.9.4
 rpds-py==0.20.1
 six==1.17.0
@@ -62,7 +62,8 @@ toml==0.10.2
 tornado==6.4.2
 typing_extensions==4.12.2
 tzdata==2024.2
-urllib3==2.2.3
+urllib3<1.27  # Compatibilidad con requests
 watchdog==4.0.2
 websockets==12.0
 zipp==3.20.2
+
